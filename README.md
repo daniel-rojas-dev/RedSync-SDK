@@ -42,10 +42,12 @@ Todos los bloques deben cerrarse con el nombre del comando seguido de un signo d
 
 ### 5. Funciones y Retornos
 Las funciones permiten reutilizar código. Se definen con parámetros y pueden devolver valores.
-`funcion sumar(a, b)
+
+```redcode
+funcion sumar(a, b)
     vn resultado = a + b
     retornar resultado
-funcion!`
+funcion!
 
 vn total = sumar(10, 5)
 ---
