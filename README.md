@@ -1,9 +1,9 @@
-# RedSync
+# RedSync SDK
 Mi lenguaje de programacion en español
 
-# 🚀 RedSync Studio v3.6
+# 🚀 RedSync SDK v3.6
 
-**RedSync** es un entorno de desarrollo y lenguaje de programación híbrido diseñado para ser **sencillo, potente y altamente eficiente**. Es ideal tanto para la enseñanza de lógica de programación como para la automatización de tareas en oficinas.
+**RedSync SDK** es un entorno de desarrollo y lenguaje de programación híbrido diseñado para ser **sencillo, potente y altamente eficiente**. Es ideal tanto para la enseñanza de lógica de programación como para la automatización de tareas en oficinas.
 
 Gracias a su arquitectura que combina un **IDE ágil en Python** con un **Núcleo de ejecución de alto rendimiento en C++**, RedSync permite interactuar con el mundo exterior de forma nativa.
 
@@ -40,6 +40,14 @@ Todos los bloques deben cerrarse con el nombre del comando seguido de un signo d
 * `lt lista_txt = ["A", "B"]`
 * Métodos incluidos: `.agregar()`, `.eliminar()`, `.ordenar()`, `.invertir()`.
 
+### 5. Funciones y Retornos
+Las funciones permiten reutilizar código. Se definen con parámetros y pueden devolver valores.
+funcion sumar(a, b)
+    vn resultado = a + b
+    retornar resultado
+funcion!
+
+vn total = sumar(10, 5)
 ---
 
 ## 🔌 Sistema Modular (Módulos Útiles)
@@ -57,7 +65,7 @@ Para activar estas funciones, usa: `importar("nombre_modulo")`.
 
 ## 🚀 Instalación y Uso
 1. Descarga la última versión desde [URL pendiente]
-2. Ejecuta `RedSyncStudio.exe`.
+2. Ejecuta `RedStudio.exe`.
 3. Escribe tu código y presiona **F4** para ejecutar.
 
 > **Nota para desarrolladores:** Este proyecto es **Open Source**. El IDE está desarrollado en Python (Tkinter) y el motor de ejecución en C++.
