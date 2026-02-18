@@ -41,7 +41,7 @@ public:
 
             // 1. Resolvemos todos los parámetros
             string nombre_final = resolver_string(args[0]); // ¿partida.json o archivo_log?
-            string clave = args[1];                        // La clave siempre es literal
+            string clave = resolver_string(args[1]);                       
             string valor_final = resolver_string(args[2]); // ¿68000 o btc_ahora?
 
             // 2. Leer datos existentes para no sobrescribir todo el archivo
